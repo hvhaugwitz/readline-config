@@ -4,7 +4,6 @@ set output-meta on
 set colored-stats on
 set editing-mode emacs
 set enable-bracketed-paste on
-set show-all-if-ambiguous on
 
 $if mode=emacs
 # mappings for Home/End keys
