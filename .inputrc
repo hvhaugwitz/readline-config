@@ -2,6 +2,7 @@ set input-meta on
 set output-meta on
 
 set colored-stats on
+set colored-completion-prefix on
 set editing-mode emacs
 set enable-bracketed-paste on
 
