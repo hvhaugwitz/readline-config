@@ -5,6 +5,8 @@ set enable-bracketed-paste on
 
 # Color files by types
 set colored-stats on
+# Mark symlinked directories
+set mark-symlinked-directories on
 # Color the common prefix
 set colored-completion-prefix on
 
