@@ -25,3 +25,15 @@ $if mode=emacs
 "\e[5~": history-search-backward
 "\e[6~": history-search-forward
 $endif
+
+# disable arrow up (use C-p)
+"\e[A":""
+# disable arrow down (use C-n)
+"\e[B":""
+# disable arrow left (use C-f)
+"\e[D":""
+# disable arrow right (use C-b)
+"\e[C":""
+
+# disable return key (use C-j)
+"\C-m":""
