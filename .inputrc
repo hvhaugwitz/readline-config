@@ -12,6 +12,9 @@ set blink-matching-paren on
 
 set editing-mode emacs
 
+# terminate incremental search with Esc key only (and use C-j for accept-line)
+set isearch-terminators '\C-['
+
 $if mode=emacs
 # mappings for Home/End keys
 "\e[1~": beginning-of-line
