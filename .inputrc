@@ -27,6 +27,9 @@ $if mode=emacs
 # mappings for PgUp/PgDn keys
 "\e[5~": history-search-backward
 "\e[6~": history-search-forward
+
+# map Ctrl-^
+"\C-^": forward-search-history
 $endif
 
 # disable arrow up (use C-p)
